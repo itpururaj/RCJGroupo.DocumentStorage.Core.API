@@ -6,6 +6,16 @@ This project is created to demo capability to create solution structure, Unit te
 
 We can create Web API Client (added in solution strucute), so that we can consume that in Integration Test or any other application.
 
+install-package AutoMapper.Extensions.Microsoft.DependencyInjection
+
+install-package Microsoft.EntityFrameworkCore.SqlServer
+
+Install-Package Microsoft.EntityFrameworkCore.Tools
+
+Install-Package Microsoft.EntityFrameworkCore.Relational
+
+add-migration InitialMigration
+
 Thanks
 
 Purushottam Dubey
